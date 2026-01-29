@@ -1,7 +1,3 @@
-*{
-    background-color: beige;
-    
-}
 
 :root{
     --color-primary: hsl(158, 36%, 37%);
@@ -14,5 +10,31 @@
 
     --font-family: "Montserrat", sans-serif;
     --font-weight: 500;
+}
+
+body{
+    font-family: var(--font-family);
+    font-weight: var(--font-weight);
+    font-size: 1rem;
+    background-color: var(--color-neutral-cream);
+    display: flex;
+    justify-content: center;
+
+
+}
+
+img{
+    display: block;
+    max-width: 100%;
+}
+
+.container{
+    display: flex;
+    max-width: 650px;
+    background-color: var(--color-neutral-white);
+    overflow: hidden;
+    border-radius: 10px;
+    margin-top: 100px;
+    
 }
 
