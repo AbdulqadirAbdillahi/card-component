@@ -1,4 +1,18 @@
 *{
     background-color: beige;
+    
+}
+
+:root{
+    --color-primary: hsl(158, 36%, 37%);
+    --color-secondary: hsl(158, 42%, 18%);
+
+    --color-neutral-black: hsl(212, 21%, 14%);
+    --color-neutral-grey: hsl(228, 12%, 48%);
+    --color-neutral-cream: hsl(30, 38%, 92%);
+    --color-neutral-white: hsl(0, 0%, 100%);
+
+    --font-family: "Montserrat", sans-serif;
+    --font-weight: 500;
 }
 
