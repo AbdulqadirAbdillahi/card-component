@@ -8,19 +8,20 @@
     --color-neutral-cream: hsl(30, 38%, 92%);
     --color-neutral-white: hsl(0, 0%, 100%);
 
-    --font-family: "Montserrat", sans-serif;
-    --font-weight: 500;
+    --font-family-primary: "Fraunces", serif;
+    --font-family-secondary: "Montserrat", sans-serif;
+
+    --font-weight-primary: 500;
+    --font-weight-secondary: 700;
 }
 
 body{
-    font-family: var(--font-family);
     font-weight: var(--font-weight);
+    font-family: var(--font-family-primary);
     font-size: 1rem;
     background-color: var(--color-neutral-cream);
     display: flex;
     justify-content: center;
-
-
 }
 
 img{
@@ -38,9 +39,32 @@ img{
     
 }
 
-.picture-img, .content{
+.picture-img, 
+.content{
     flex: 1;
 }
-/* this makes the image 50% and text 50% */
+/* this makes the image 50% and text 50%, because all flex items inside the container will occupy the same space*/
+
+.content{
+    border: 2px solid red;
+}
+
+.content-perfume{
+    font-size: 15px;
+    letter-spacing: 6px;
+}
+
+.price-group{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+  
+}
+
+.product-price{
+    color: var(--color-primary);
+    font-size: 2rem;
+    font-weight: var(--font-weight-primary);
+}
 
 
