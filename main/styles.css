@@ -57,24 +57,33 @@ img{
 
 
 .content{
-  padding: 2rem;
+  padding: 1.8rem;
+}
+
+.content p, .content h1 {
+    margin: 15px 15px;
 }
 
 .paragraph{
     font-family: var(--font-family-secondary);
     line-height: 1.5;
     font-size: 0.9rem;
+    color: grey;
 }
 
-.content-perfume{
-    font-size: 15px;
+.content-perfume-title{
+    font-size: 0.8rem;
     letter-spacing: 6px;
+    font-family: var(--font-family-secondary);
+    font-weight: var(--font-weight-primary);
+    color: grey;
 }
 
 .price-group{
     display: flex;
     align-items: center;
     gap: 25px;
+    margin-bottom: 20px;
   
 }
 
@@ -92,13 +101,14 @@ img{
     align-items: center;
     gap: 10px;
     background-color: var(--color-primary);
-    border-radius: 10px;
+    border-radius: 8px;
     border: none;
-    padding: 1rem 1rem;
+    padding: 1rem;
+    width: 100%;
     font-weight: var(--font-weight-secondary);
     font-size: 1rem;
     color: white;
-    width: 100%;
+
 }
 
 
